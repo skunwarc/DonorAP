@@ -1,0 +1,14 @@
+server:
+  port: 8180
+
+spring:
+  datasource:
+    url: jdbc:mysql://sagar-aws-db.cj4rmvsbguub.us-east-1.rds.amazonaws.com/teacher_db
+    username: admin
+    password: adminadmin
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+    database-platform: org.hibernate.dialect.MySQLDialect
